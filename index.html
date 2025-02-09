@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>food website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Lobster&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Lobster&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Lobster&family=Source+Code+Pro:wght@200;300;400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="photos/logo.png" alt="logo">
+      </div>
+
+      <ul>
+        <li class="item"><a href="#intro1">Home</a></li>
+        <li class="item"><a href="menu.html">Menu</a></li>
+        <li class="item"><a href="#contact">Contact</a></li>
+        <li class="item"><a href="#">About us</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <div id="intro1">
+    <h1> welcome to mishra's food hub</h1>
+    <p>Our job is to fill your tummy with delicious food & with fast & free-delivery</p>
+
+    <div id="text"> </div>
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">Get started</button>
+      <div id="text"> </div>
+      <button onclick="dosomething()" class="btn">watch videos</button>
+    </div>
+  </div>
+
+  <div id="template">
+
+    <span id="pza">
+      <img src="photos/pizza.png" alt="pizza">
+      <div class="items2">
+        <h2> Pizzas </h2>
+        <p>All types of Pizzas starting from </p>
+        <pre>₹0/-</pre>
+      </div>
+    </span>
+
+    <span id="pancakes">
+      <img src="photos/pancake.png" alt="pancake">
+      <div class="items2">
+        <h2> Pancakes </h2>
+        <p>All types of pancakes starting from </p>
+        <pre>₹0/-</pre>
+      </div>
+    </span>
+
+    <span id="burger">
+      <img src="photos/burger.png" alt="burger">
+      <div class="items2">
+        <h2> Burger </h2>
+        <p>All types of Burger starting from </p>
+        <pre>₹0/-</pre>
+      </div>
+    </span>
+
+    <span id="Maggie">
+      <img src="photos/maggie.png" alt="maggie">
+      <div class="items2">
+        <h2> Noodles </h2>
+        <p>All types of Noodles starting from </p>
+        <pre>₹0/-</pre>
+      </div>
+    </span>
+
+  </div>
+
+  <div id="menu_intro">
+    <h4>Hungry Already?</h4>
+    <p> Our signature Dishes are served all day, Everyday </p>
+
+    <a href="https://google.com">
+      <button onclick="dosomething()" id="btn1">
+        explore now
+      </button> </a>
+
+    <p class="menu_pr">
+      Explore a wide range of food varieties specially designed as per your need
+    </p>
+
+  </div>
+
+
+  <div id="menu_container">
+
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">Breakfast time</button>
+
+      <button onclick="dosomething()" class="btn">lunch time</button>
+    </div>
+
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">dinner time</button>
+
+      <button onclick="dosomething()" class="btn">fruit juices </button>
+    </div>
+
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">desserts </button>
+
+      <button onclick="dosomething()" class="btn">beverages</button>
+    </div>
+
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">pizzas party</button>
+
+      <button onclick="dosomething()" class="btn">burgers party</button>
+    </div>
+
+    <div class="btn0">
+      <button onclick="dosomething()" class="btn">Chinese </button>
+
+      <button onclick="dosomething()" class="btn">south-indian</button>
+    </div>
+
+    <div>
+      <button onclick="dosomething()" id="btn1">today's epic</button>
+    </div>
+
+
+  </div>
+
+  <div id="last_tq">
+    <h4 class="last"> menu that always makes you fall in love</h4>
+
+    <div id="logos2">
+      <span>
+        <img src="photos/easy.png" alt="easy to order">
+        Easy to Order
+      </span>
+
+      <span class="ndimg">
+        <img src="photos/fast.png" alt="fast delivery">
+        Fast and Free Delivery
+      </span>
+
+      <span class="rdimg">
+        <img src="photos/bestq.png" alt="best quality">
+        Best Quality of Food
+      </span>
+
+    </div>
+  </div>
+
+  <footer>
+
+
+    <div id="log_in">
+
+      <form action="/">
+        <label>Email:
+          <input type="email" class="login" id="email" placeholder="Email"> </label>
+        <br>
+        <label>Phone:
+          <input type="text" class="login" id="phone" placeholder="Phone number"> </label>
+        <br>
+
+        <label>password:
+          <input type="password" class="login" id="password" placeholder="Password"> </label>
+
+        <input type="submit" class="login" id="login" value="LOG IN">
+
+
+      </form>
+
+      <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>We are open from</p>
+        <b>
+          <p>sun-sat, 9am-1pm, 3pm-12am</p>
+        </b>
+
+        <h4>phone: </h4> <i>123-456-7890</i>
+        <h4>Gmail:</h4><i>Mishrasfoodhub280@gmail.com</i>
+        <h4>Address: </h4> <i>comming soon</i>
+      </div>
+
+    </div>
+
+    <p id="rights">All Rights reserved </p>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="lime" defer></script>
+</body>
+
+</html>
